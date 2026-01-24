@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import CustomCursor from "./components/customCursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+   icons: {
+    icon: "/icon.svg",
+  },
   title: "Afeef M | Frontend Developer",
   description:
     "Frontend Developer portfolio showcasing projects built with React, Next.js, and Tailwind CSS.",
@@ -42,6 +46,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+         <CustomCursor />
         {children}
       </body>
     </html>

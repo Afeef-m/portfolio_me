@@ -29,15 +29,11 @@ export default function Contact() {
             respond within a day.
           </p>
 
-          {/* Direct contact */}
           <div className="text-sm text-gray-500">
             email me directly at:-{" "}
-            <a
-              href="mailto:afeefmaliyekkal14@email.com"
-              className="font-medium text-gray-900 hover:underline"
-            >
+            <span className="font-medium text-gray-900 cursor-grabbing">
               afeefmaliyekkal14@email.com
-            </a>
+            </span>
           </div>
 
           <div className="my-10 flex items-center max-w-xs mx-auto text-gray-400">
@@ -48,40 +44,37 @@ export default function Contact() {
 
           <div className="mt-6 flex justify-center gap-6 text-gray-500">
             <a
-  href="https://linkedin.com/in/afeef-m"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="LinkedIn profile"
-  className="text-gray-500 transition-all duration-200
+              href="https://linkedin.com/in/afeef-m"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+              className="text-gray-500 transition-all duration-200
            hover:text-[#0A66C2] hover:scale-110 active:scale-95"
-
->
-  <Linkedin className="w-5 h-5" />
-</a>
-
-           <a
-  href="https://www.instagram.com/afeef._.m/"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Instagram profile"
-  className="text-gray-500 transition-all duration-200
-             hover:text-[#E4405F] hover:scale-110 active:scale-95"
->
-  <Instagram className="w-5 h-5" />
-</a>
-
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
 
             <a
-  href="https://github.com/Afeef-m"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="GitHub profile"
-  className="text-gray-500 transition-all duration-200
-             hover:text-gray-900 hover:scale-110 active:scale-95"
->
-  <Github className="w-5 h-5" />
-</a>
+              href="https://www.instagram.com/afeef._.m/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram profile"
+              className="text-gray-500 transition-all duration-200
+             hover:text-[#E4405F] hover:scale-110 active:scale-95"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
 
+            <a
+              href="https://github.com/Afeef-m"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+              className="text-gray-500 transition-all duration-200
+             hover:text-gray-900 hover:scale-110 active:scale-95"
+            >
+              <Github className="w-5 h-5" />
+            </a>
           </div>
         </div>
       </div>
