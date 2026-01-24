@@ -26,13 +26,11 @@ export default function LandingPage() {
         </h1>
 
         <h2 className="mt-3 sm:mt-4 text-lg sm:text-xl md:text-2xl text-gray-600 font-medium">
-          Frontend Developer & UI/UX Enthusiast
+          Frontend Developer 
         </h2>
 
         <p className="mt-6 sm:mt-8 max-w-xl text-base sm:text-lg text-gray-500 leading-relaxed">
-          I build responsive, user-friendly web applications using modern
-          technologies like React, Next.js, and Tailwind CSS. Passionate about
-          creating seamless digital experiences.
+          Frontend developer focused on building responsive and user-friendly interfaces with React, Next.js, and Tailwind CSS.
         </p>
 
         <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-3 sm:gap-4">
