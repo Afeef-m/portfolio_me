@@ -15,22 +15,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-   icons: {
-    icon: "/icon.svg",
-  },
+  metadataBase: new URL("https://portfolio-me-kappa-weld.vercel.app"),
+
   title: "Afeef M | Frontend Developer",
   description:
     "Frontend Developer portfolio showcasing projects built with React, Next.js, and Tailwind CSS.",
+
+  icons: {
+    icon: "/icon.svg",
+  },
+
+  alternates: {
+    canonical: "/",
+  },
 
   openGraph: {
     title: "Afeef M | Frontend Developer",
     description:
       "Frontend Developer portfolio showcasing projects built with React, Next.js, and Tailwind CSS.",
-    url: "https://your-domain.com", 
+    url: "https://portfolio-me-kappa-weld.vercel.app",
     siteName: "Afeef M Portfolio",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://portfolio-me-kappa-weld.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Afeef M | Frontend Developer Portfolio",
@@ -40,6 +47,7 @@ export const metadata = {
     type: "website",
   },
 };
+
 
 
 export default function RootLayout({ children }) {
