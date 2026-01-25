@@ -25,6 +25,11 @@ export const metadata = {
     icon: "/icon.svg",
   },
 
+  
+  verification: {
+    google: "4t4dkmO0S69KoFasLNd0-d9rm8Du6yjO96n1Hhn8bb4", 
+  },
+
   alternates: {
     canonical: "/",
   },
