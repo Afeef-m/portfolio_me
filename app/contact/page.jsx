@@ -43,9 +43,10 @@ export default function Contact() {
           </div>
 
           <div className="mt-6 flex justify-center gap-6 text-gray-500">
-            <a
+             <a
               href="https://linkedin.com/in/afeef-m"
               target="_blank"
+               title="LinkedIn"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile"
               className="text-gray-500 transition-all duration-200
@@ -57,6 +58,7 @@ export default function Contact() {
             <a
               href="https://www.instagram.com/afeef._.m/"
               target="_blank"
+               title="Instagram"
               rel="noopener noreferrer"
               aria-label="Instagram profile"
               className="text-gray-500 transition-all duration-200
@@ -68,6 +70,7 @@ export default function Contact() {
             <a
               href="https://github.com/Afeef-m"
               target="_blank"
+               title="GitHub"
               rel="noopener noreferrer"
               aria-label="GitHub profile"
               className="text-gray-500 transition-all duration-200

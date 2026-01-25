@@ -16,7 +16,7 @@ export default function About() {
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900">
             About Me
           </h2>
-          <div className="mt-4 mx-auto h-[2px] w-16 bg-gray-900 rounded-full" />
+          <div className="mt-4 mx-auto h-0.5 w-16 bg-gray-900 rounded-full" />
         </div>
 
         {/* Content Grid */}

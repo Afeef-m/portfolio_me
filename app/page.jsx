@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main>
   <LandingPage/>
-  <Projects/>
   <About/>
-  <Experience/>
   <Skills/>
+  <Projects/>
+  <Experience/>
   <Contact/>
 </main>
 

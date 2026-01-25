@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-Hide default cursor
+/* Hide default cursor */
 body {
   cursor: none;
 }
