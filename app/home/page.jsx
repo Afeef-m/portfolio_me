@@ -7,9 +7,10 @@ import Globe from "../components/globe";
 export default function LandingPage() {
   return (
     <main className="relative min-h-screen flex justify-center items-center text-center px-4 sm:px-6 overflow-hidden bg-white">
-      <div className="absolute inset-0 z-0 opacity-20 sm:opacity-40 pointer-events-none">
-        <Globe />
-      </div>
+    <div className="absolute inset-0 z-0 hidden md:block opacity-40 pointer-events-none">
+  <Globe />
+</div>
+
 
       <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 tracking-tight">
