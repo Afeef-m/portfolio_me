@@ -34,13 +34,13 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-3 text-gray-500">
             <p className="text-sm text-gray-600">Let’s connect</p>
             <div className="flex gap-6">
-              <a href="https://linkedin.com/in/afeef-m" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <a href="https://linkedin.com/in/afeef-m" target="_blank" rel="noopener noreferrer" >
                 <Linkedin className="w-5 h-5 hover:text-[#0A66C2] transition" />
               </a>
-              <a href="https://www.instagram.com/afeef._.m/" target="_blank" rel="noopener noreferrer" title="Instagram">
+              <a href="https://www.instagram.com/afeef._.m/" target="_blank" rel="noopener noreferrer" >
                 <Instagram className="w-5 h-5 hover:text-[#E4405F] transition" />
               </a>
-              <a href="https://github.com/Afeef-m" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <a href="https://github.com/Afeef-m" target="_blank" rel="noopener noreferrer" >
                 <Github className="w-5 h-5 hover:text-gray-900 transition" />
               </a>
             </div>
