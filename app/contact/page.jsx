@@ -1,6 +1,7 @@
 "use client";
 
 import { Github, Instagram, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -43,22 +44,35 @@ export default function Contact() {
           </div>
 
           <div className="mt-6 flex justify-center gap-6 text-gray-500">
-             <a
+            <a
               href="https://linkedin.com/in/afeef-m"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="LinkedIn profile"
               className="text-gray-500 transition-all duration-200
            hover:text-[#0A66C2] hover:scale-110 active:scale-95"
             >
               <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href="https://wa.me/8330052135?text=Hello%20I'm%20interested%20in%20your%20service"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="transition-transform duration-200
+             hover:scale-110 active:scale-95"
+            >
+              <Image
+                src="/whatsapp.svg"
+                alt="WhatsApp"
+                width={20}
+                height={20}
+              />
             </a>
 
             <a
               href="https://www.instagram.com/afeef._.m/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram profile"
               className="text-gray-500 transition-all duration-200
              hover:text-[#E4405F] hover:scale-110 active:scale-95"
             >
@@ -69,7 +83,6 @@ export default function Contact() {
               href="https://github.com/Afeef-m"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="GitHub profile"
               className="text-gray-500 transition-all duration-200
              hover:text-gray-900 hover:scale-110 active:scale-95"
             >
