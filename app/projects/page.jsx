@@ -49,7 +49,7 @@ export default function Projects() {
       description:
         "A movie ticket booking application that allows users to browse movies, select showtimes, choose seats, and complete bookings with a smooth user experience.",
       stack: ["React", "Next.js", "Tailwind", "TypeScript", "JSON Server"],
-      live: "https://movieon-psi.vercel.app/",
+      live: "https://movieon-nine.vercel.app/",
     },
   ];
 
