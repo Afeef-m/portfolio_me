@@ -64,7 +64,7 @@ export default function LandingPage() {
   <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
     <h1
       ref={titleRef}
-      className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 tracking-tight"
+      className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 tracking-wider"
     >
       Afeef M
     </h1>
