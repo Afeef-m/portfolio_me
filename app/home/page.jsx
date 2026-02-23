@@ -48,7 +48,7 @@ export default function LandingPage() {
   className="relative min-h-screen flex items-center justify-center text-center px-4 sm:px-6 overflow-hidden bg-white"
 >
   {/* Background layer */}
-  <div className="absolute inset-0 z-0 hidden md:block pointer-events-none">
+  {/* <div className="absolute inset-0 z-0 hidden md:block pointer-events-none">
 
     <div className="absolute left-[-8%] top-1/2 -translate-y-1/2 w-[800px] h-[800px] opacity-30">
       <GridSphere />
@@ -58,7 +58,7 @@ export default function LandingPage() {
       <Wireframe />
     </div>
 
-  </div>
+  </div> */}
 
   {/* Content (always centered) */}
   <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
