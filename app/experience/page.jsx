@@ -4,7 +4,6 @@ export default function Experience() {
   return (
     <section id="experience" className="py-28 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-
         {/* Header */}
         <div className="text-center mb-20">
           <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">
@@ -18,7 +17,6 @@ export default function Experience() {
 
         {/* Timeline */}
         <div className="relative border-l border-gray-200 pl-8 space-y-14">
-
           {/* Item 1 */}
           <div className="relative">
             <span className="absolute -left-2.25 top-1.5 h-4 w-4 rounded-full bg-gray-900" />
@@ -29,30 +27,34 @@ export default function Experience() {
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Frontend Developer 
+                Frontend Developer Intern – Bridgeon Solutions
               </h3>
 
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                Building real-world frontend applications while focusing on
-                clean UI, maintainable code, and modern development practices.
+                Contributed to production-grade frontend applications using
+                React.js and Next.js, focusing on scalable architecture and
+                performance optimization.
               </p>
 
               <ul className="space-y-3 text-gray-600 text-sm">
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Built responsive web applications using React and Next.js
+                  Developed 10+ responsive UI screens in live production
+                  environments
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Implemented reusable component systems with Tailwind CSS
+                  Built 20+ reusable React components following component-driven
+                  architecture
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Integrated animations and interactions using GSAP
+                  Integrated REST APIs and managed dynamic data rendering
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Built 2 full-scale frontend applications
+                  Improved performance by reducing unnecessary re-renders and
+                  optimizing state management
                 </li>
               </ul>
             </div>
@@ -68,12 +70,13 @@ export default function Experience() {
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Frontend & UI Development
+                Frontend Development Foundation
               </h3>
 
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                Strengthened fundamentals and modern frontend concepts through
-                continuous learning and hands-on experimentation.
+                Built strong fundamentals in JavaScript, TypeScript, UI systems,
+                and modern frontend architecture through structured learning and
+                hands-on projects.
               </p>
 
               <ul className="space-y-3 text-gray-600 text-sm">
@@ -92,7 +95,6 @@ export default function Experience() {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </section>

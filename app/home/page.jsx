@@ -3,8 +3,6 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 import { Github, Linkedin } from "lucide-react";
-import Wireframe from "../components/wirframe";
-import GridSphere from "../components/sphere";
 
 export default function LandingPage() {
   const containerRef = useRef(null);
@@ -47,20 +45,6 @@ export default function LandingPage() {
   ref={containerRef}
   className="relative min-h-screen flex items-center justify-center text-center px-4 sm:px-6 overflow-hidden bg-white"
 >
-  {/* Background layer */}
-  {/* <div className="absolute inset-0 z-0 hidden md:block pointer-events-none">
-
-    <div className="absolute left-[-8%] top-1/2 -translate-y-1/2 w-[800px] h-[800px] opacity-30">
-      <GridSphere />
-    </div>
-
-    <div className="absolute right-[-8%] top-1/2 -translate-y-1/2 w-[700px] h-[700px] opacity-30">
-      <Wireframe />
-    </div>
-
-  </div> */}
-
-  {/* Content (always centered) */}
   <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
     <h1
       ref={titleRef}

@@ -39,16 +39,16 @@ export default function Projects() {
       image: "/projects/pet-store.png",
       title: "Pet E-Commerce App",
       description:
-        "An e-commerce platform with admin and user roles, product management, and order tracking.",
-      stack: ["React", "Bootstrap", "JSON Server"],
+        "A full-stack e-commerce platform with role-based authentication, product management, and order tracking",
+      stack: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
       live: "https://pet-ecom-nine.vercel.app/",
     },
     {
       image: "/projects/movion.png",
       title: "Movie Ticket Booking App",
       description:
-        "A movie ticket booking application that allows users to browse movies, select showtimes, choose seats, and complete bookings with a smooth user experience.",
-      stack: ["React", "Next.js", "Tailwind", "TypeScript", "JSON Server"],
+        "A movie ticket booking platform where users can browse movies, select showtimes, choose seats, and complete bookings with an interactive seat selection experience",
+      stack: ["Next.js", "Tailwind", "TypeScript", "JSON Server"],
       live: "https://movieon-nine.vercel.app/",
     },
   ];

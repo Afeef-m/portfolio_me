@@ -54,7 +54,7 @@ export default function Contact() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://wa.me/8330052135?text=Hello%20I'm%20interested%20in%20your%20service"
+              href="https://wa.me/+918330052135?text=Hello%20I'm%20interested%20in%20your%20service"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
