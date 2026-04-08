@@ -45,13 +45,25 @@ export default function LandingPage() {
   ref={containerRef}
   className="relative min-h-screen flex items-center justify-center text-center px-4 sm:px-6 overflow-hidden bg-white"
 >
-  <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
-    <h1
-      ref={titleRef}
-      className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 tracking-wider"
-    >
-      Afeef M
-    </h1>
+  <div className="relative z-10 flex flex-col items-center w-full">
+   <h1
+  ref={titleRef}
+  className="
+    w-full
+    text-center
+    font-bold
+    leading-[0.9]
+    tracking-wider
+    text-[14vw] sm:text-[12vw] md:text-[10vw]
+    bg-linear-to-b from-[#ffffff] to-black
+    bg-clip-text
+    
+    /* 3. Make text transparent so the gradient shows through */
+    text-transparent
+  "
+>
+  AFEEF M
+</h1>
 
     <h2
       ref={roleRef}
