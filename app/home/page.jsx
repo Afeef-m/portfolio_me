@@ -77,7 +77,7 @@ export default function LandingPage() {
       className="mt-6 sm:mt-8 max-w-xl text-base sm:text-lg text-gray-500 leading-relaxed"
     >
       Frontend developer focused on building responsive and user-friendly
-      interfaces with React, Next.js, and Tailwind CSS.
+      interfaces with React, Next.js, Svelte and Tailwind CSS.
     </p>
 
     <div

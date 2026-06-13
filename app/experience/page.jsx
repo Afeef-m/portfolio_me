@@ -17,44 +17,48 @@ export default function Experience() {
 
         {/* Timeline */}
         <div className="relative border-l border-gray-200 pl-8 space-y-14">
-          {/* Item 1 */}
+          {/* Item 1 - Current */}
           <div className="relative">
             <span className="absolute -left-2.25 top-1.5 h-4 w-4 rounded-full bg-gray-900" />
 
             <div className="rounded-2xl bg-white border border-gray-200 p-6 hover:shadow-md transition">
               <p className="text-sm text-gray-400 flex justify-end">
-                2025 — Present
+                May 2026 — Present
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Frontend Developer Intern – Bridgeon Solutions
+                Junior Frontend Developer – Bedrock Foundry
               </h3>
 
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                Contributed to production-grade frontend applications using
-                React.js and Next.js, focusing on scalable architecture and
-                performance optimization.
+                Developing cross-platform desktop and Android applications using
+                Svelte 5 and Tauri 2, with a focus on responsive interfaces,
+                reusable components, and interactive user experiences.
               </p>
 
               <ul className="space-y-3 text-gray-600 text-sm">
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Developed 10+ responsive UI screens in live production
-                  environments
+                  Built and maintained Android and desktop applications using
+                  Svelte 5 and Tauri 2
                 </li>
+
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Built 20+ reusable React components following component-driven
-                  architecture
+                  Developed a digital reading platform with interactive
+                  page-flip navigation and touch-friendly user interactions
                 </li>
+
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Integrated REST APIs and managed dynamic data rendering
+                  Created reusable UI components and responsive layouts
+                  optimized for multiple screen sizes
                 </li>
+
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Improved performance by reducing unnecessary re-renders and
-                  optimizing state management
+                  Designed product wireframes and user flows using Excalidraw
+                  for upcoming business applications
                 </li>
               </ul>
             </div>
@@ -66,31 +70,42 @@ export default function Experience() {
 
             <div className="rounded-2xl bg-white border border-gray-200 p-6 hover:shadow-md transition">
               <p className="text-sm text-gray-400 flex justify-end">
-                Learning Phase
+                Apr 2025 — Apr 2026
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Frontend Development Foundation
+                Frontend Developer Intern – Bridgeon Skillversity
               </h3>
 
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                Built strong fundamentals in JavaScript, TypeScript, UI systems,
-                and modern frontend architecture through structured learning and
-                hands-on projects.
+                Built responsive web applications using React.js and Next.js,
+                focusing on reusable components, API integration, and modern
+                frontend development practices.
               </p>
 
               <ul className="space-y-3 text-gray-600 text-sm">
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  JavaScript, TypeScript, and modern ES practices
+                  Developed responsive web applications using React.js and
+                  Next.js
                 </li>
+
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  UI/UX fundamentals, layout systems, and accessibility
+                  Translated UI/UX wireframes into pixel-perfect interfaces
+                  using Tailwind CSS and modern JavaScript
                 </li>
+
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
-                  Version control with Git and GitHub workflows
+                  Integrated REST APIs and managed asynchronous data flows for
+                  dynamic user experiences
+                </li>
+
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-900" />
+                  Collaborated in Agile teams on feature development, debugging,
+                  and sprint delivery
                 </li>
               </ul>
             </div>

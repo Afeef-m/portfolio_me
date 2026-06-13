@@ -34,24 +34,32 @@ export default function Projects() {
     });
   }, []);
 
-  const projects = [
-    {
-      image: "/projects/pet-store.png",
-      title: "Pet E-Commerce App",
-      description:
-        "A full-stack e-commerce platform with role-based authentication, product management, and order tracking",
-      stack: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
-      live: "https://pet-ecom-nine.vercel.app/",
-    },
-    {
-      image: "/projects/movion.png",
-      title: "Movie Ticket Booking App",
-      description:
-        "A movie ticket booking platform where users can browse movies, select showtimes, choose seats, and complete bookings with an interactive seat selection experience",
-      stack: ["Next.js", "Tailwind", "TypeScript", "JSON Server"],
-      live: "https://movieon-nine.vercel.app/",
-    },
-  ];
+ const projects = [
+  {
+    image: "/projects/stadium.png",
+    title: "Stadium Ticket Booking App",
+    description:
+      "A sports event ticket booking platform where users can browse venues and events, select seats through an interactive seat map, and complete ticket reservations seamlessly.",
+    stack: ["Next.js", "Tailwind CSS", "TypeScript", ".NET"],
+    live: "https://arenaops.netlify.app/",
+  },
+  {
+    image: "/projects/movion.png",
+    title: "Movie Ticket Booking App",
+    description:
+      "A movie ticket booking platform that allows users to explore movies, choose showtimes, select seats with an interactive seating layout, and book tickets online.",
+    stack: ["Next.js", "Tailwind CSS", "TypeScript", "JSON Server"],
+    live: "https://movieon-nine.vercel.app/",
+  },
+  {
+    image: "/projects/pet-store.png",
+    title: "Pet E-Commerce App",
+    description:
+      "A full-stack e-commerce platform featuring role-based authentication, product management, shopping cart functionality, and order tracking.",
+    stack: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
+    live: "https://pet-ecom-nine.vercel.app/",
+  },
+];
 
   return (
    <section

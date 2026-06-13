@@ -15,6 +15,7 @@ const skills = [
   { name: "React", src: "/skills/react.svg" },
   { name: "Redux", src: "/skills/redux.svg" },
   { name: "Next.js", src: "/skills/nextjs.svg" },
+  { name: "svelte", src: "/skills/svelte.svg" },
   { name: "GSAP", src: "/skills/gsap.svg" },
   { name: "Three.js", src: "/skills/threejs.svg" },
   { name: "Tailwind CSS", src: "/skills/tailwind.svg" },

@@ -25,7 +25,7 @@ export default function Footer() {
               Afeef M
             </p>
             <p className="text-xs text-gray-500 mt-1">
-              Frontend Developer · React · Next.js
+              Frontend Developer · React · Next.js · Svelte
             </p>
           </div>
 

@@ -31,7 +31,7 @@ export default function About() {
   useGSAP(
     () => {
       const ctx = gsap.context(() => {
-         // Blur text reveal
+        // Blur text reveal
         gsap.from(".blur-text", {
           scrollTrigger: {
             trigger: ".blur-text",
@@ -44,8 +44,8 @@ export default function About() {
           stagger: 0.2,
           ease: "power3.out",
         });
-         // Blur word reveal
-          gsap.to(".word", {
+        // Blur word reveal
+        gsap.to(".word", {
           scrollTrigger: {
             trigger: sectionRef.current,
             start: "top 75%",
@@ -74,7 +74,7 @@ export default function About() {
 
       return () => ctx.revert();
     },
-    { scope: sectionRef }
+    { scope: sectionRef },
   );
 
   return (
@@ -98,40 +98,42 @@ export default function About() {
         </div>
 
         <div className="grid gap-14 md:grid-cols-2 items-start">
-          {/* Left: Animated Description */}
+          {/* Left: Description */}
           <div className="space-y-6">
             <AnimatedText
               className="text-gray-600 leading-relaxed text-base"
-              text="I’m a frontend developer specializing in React and Next.js, focused on building scalable and production-grade web applications. I translate structured UI/UX designs into responsive, accessible interfaces using modern CSS systems and TypeScript."
+              text="I'm a Frontend Developer with experience building modern web, desktop, and Android applications using React.js, Next.js, Svelte 5, and Tauri 2. I enjoy transforming ideas and wireframes into fast, responsive, and user-friendly products."
             />
 
             <AnimatedText
               className="text-gray-600 leading-relaxed text-base"
-              text="My approach emphasizes maintainable component architecture, efficient state management, and performance optimization. When interaction enhances usability, I integrate motion using tools like GSAP and Three.js with purpose—not decoration."
+              text="My focus is on creating scalable component architectures, integrating APIs, managing application state, and delivering production-ready experiences. I continuously explore new technologies and prioritize clean code, performance, and maintainability in every project."
             />
           </div>
 
           {/* Right Card */}
           <div className="reveal-card rounded-2xl border border-gray-200 bg-gray-50 p-6 hover:shadow-md transition-all duration-300">
             <h3 className="font-semibold mb-6 text-gray-900 text-lg">
-              What I do
+              What I Do
             </h3>
 
             <ul className="space-y-4 text-gray-600">
               <li className="flex items-start gap-4">
                 <span className="mt-2 h-2.5 w-2.5 rounded-full bg-gray-900" />
-                Develop scalable frontend architectures using React, Next.js,
-                and TypeScript
+                Build modern web applications with React.js, Next.js,
+                TypeScript, and Tailwind CSS
               </li>
 
               <li className="flex items-start gap-4">
                 <span className="mt-2 h-2.5 w-2.5 rounded-full bg-gray-900" />
-                Build reusable, component-driven UI systems
+                Develop desktop and Android applications using Svelte 5 and
+                Tauri 2
               </li>
 
               <li className="flex items-start gap-4">
                 <span className="mt-2 h-2.5 w-2.5 rounded-full bg-gray-900" />
-                Optimize performance and rendering efficiency
+                Create reusable UI systems, integrate APIs, and optimize
+                performance for production environments
               </li>
             </ul>
           </div>
